@@ -1,0 +1,753 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  /* overflow: auto; */
+  padding-top: 1px;
+}
+
+body {
+  color: #0D344F;
+  padding: 0;
+  margin: 0;
+  /* overflow: auto; */
+}
+
+/* Header */
+.header {
+  background-image: url(./img/a.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1494px;
+  height: 635px;
+  /* border: 1px solid red; */
+}
+.header-p {
+  font-weight: bold;
+  font-size: 48px;
+  margin: 550px 0px 0px 150px;
+}
+
+.lauda {
+  background-image: url(./img/b.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1494px;
+  height: 361px;
+}
+
+
+
+.albastru {
+  color: #1B75BB;
+}
+.center-stiai {
+  text-align: justify;
+  font-size: 48px;
+  width: 729px;
+  height: 189px;
+  margin: 90px 0px 0px 325px;
+
+}
+.center-stiai p {
+  padding: 40px 50px 40px 50px;
+  font-weight: bold;
+}
+
+.proiecte {
+  background-image: url(./img/c.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #F9F9F9;
+  width: 1494px;
+  height: 760px;
+
+}
+
+.div-hr {
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.ne-laudam {
+  text-align: justify;
+  font-weight: bolder;
+  font-size: 48px;
+}
+.div-hr p {
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.colaborare-div {
+  font-size: 32px;
+  margin: 150px 0px 0px 800px;
+  width: 400px;
+}
+
+.colaborare {
+  color: #2E469D;
+
+}
+.colaborare span {
+  font-weight: bold;
+}
+.editura-top {
+  font-weight: bold;
+  color: #424242;
+}
+
+
+/* Misiune */
+.misiunea-noastra {
+  background-image: url(./img/d.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1494px;
+  height: 787px;
+}
+.misiunea-noastra p {
+  font-size: 32px;
+  width: 360px;
+  padding: 0;
+  margin: 0;
+}
+
+.p-stii {
+  color: #FFFFFF;
+  margin-left: 150px;
+  padding-top: 90px;
+}
+.p-albastru {
+  color: #30489E;
+  margin-left: 150px;
+  padding-top: 160px;
+}
+.p-frumos {
+  color: #FFFFFF;
+  margin-left: 150px;
+  padding-top: 140px;
+}
+
+
+.raspunde-da {
+  text-align: center;
+  color: #FFFFFF;
+  background-image: url(./img/e.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1494px;
+  height: 382px;
+}
+
+.div-da {
+  font-size: 48px;
+}
+.div-da p {
+  margin-top: 80px;
+}
+.div-da span {
+  font-weight: bold;
+  font-size: 55px;
+}
+
+.misiunea-noastra p{
+  font-weight: bold;
+}
+
+.portofoliu {
+  text-align: center;
+  width: 1494px;
+  height: 250px;
+}
+.portofoliu-div {
+  margin-top: 50px;
+  /* font-weight: bold; */
+  width: 950px;
+
+}
+.portofoliu-text{
+  text-align: justify;
+  font-size: 48px;
+  color: #0D344F;
+
+}
+.portofoliu-text a {
+  text-decoration: none;
+}
+.portofoliu-text a:hover {
+  color: blue;
+}
+.span-orange {
+  color: #F05A28;
+}
+.span-italic {
+  font-style: italic;
+  font-weight: bolder;
+}
+.span-italic a {
+  color: inherit;
+
+}
+.vezi-site {
+  padding: 30px 70px;
+  font-weight: bolder;
+  border-radius: 20px;
+  font-size: 40px;
+  color: #FFFFFF;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  background: rgb(74,98,154);
+  border: 2px solid rgb(74,98,154);
+  background: -moz-linear-gradient(90deg, rgba(74,98,154,1) 0%, rgba(112,96,128,1) 50%, rgba(163,93,92,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(74,98,154,1) 0%, rgba(112,96,128,1) 50%, rgba(163,93,92,1) 100%);
+  background: linear-gradient(90deg, rgba(74,98,154,1) 0%, rgba(112,96,128,1) 50%, rgba(163,93,92,1) 100%);
+}
+.vezi-site:hover {
+  border: 2px solid #F05A28;
+}
+.vezi-site:focus {
+  outline: 0;
+}
+/* Footer */
+
+.footer-links {
+  margin-top: 50px;
+
+  text-align: center;
+  color: #FFFFFF;
+  background-image: url(./img/f.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1494px;
+  height: 595px;
+}
+.sociabili {
+  margin-top: 290px;
+  font-size: 25px;
+}
+.footer-links p{
+  margin-bottom: 20px;
+}
+.contact-list {
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+}
+.personal-links {
+  display: block;
+  text-align: center;
+  padding-left: 7px;
+  padding-right: 7px;
+  /* margin: 0 auto; */
+  font-size: 35px;
+  text-decoration: none;
+  /* color: #222; */
+
+}
+.footer-links a {
+  color: #F8F8F8;
+}
+.footer-links a:hover {
+  color: #30489E;
+}
+
+
+/*---Media Queries ---*/
+
+@media (max-width: 992px) {
+
+  /* Backgrounds */
+  .header {
+    width: 992px;
+    height: 421px;
+  }
+  .lauda {
+    width: 992px;
+    height: 239px;
+  }
+  .proiecte {
+    width: 992px;
+    height: 504px;
+    margin-top: 25px;
+
+  }
+  .misiunea-noastra {
+    width: 992px;
+    height: 522px;
+  }
+  .raspunde-da {
+    width: 992px;
+    height: 253px;
+  }
+  .portofoliu {
+    width: 992px;
+    height: 200px;
+  }
+  .footer-links {
+    width: 992px;
+    height: 395px;
+  }
+
+
+  /* Content */
+  .header-p {
+    font-size: 32px;
+    margin: 380px 0px 0px 90px;
+  }
+  .center-stiai {
+    font-size: 32px;
+    width: 487px;
+    height: 125px;
+    margin: 60px 0px 0px 215px;
+
+  }
+  .center-stiai p {
+    padding: 25px 35px 25px 35px;
+  }
+  .div-hr {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  .ne-laudam {
+    font-size: 32px;
+  }
+  .div-hr p {
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .colaborare-div {
+    font-size: 20px;
+    margin: 90px 0px 0px 550px;
+    width: 280px;
+  }
+  .misiunea-noastra p {
+    font-size: 20px;
+    width: 250px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .p-stii {
+    margin-left: 100px;
+    padding-top: 50px;
+  }
+  .p-albastru {
+    margin-left: 100px;
+    padding-top: 110px;
+  }
+  .p-frumos {
+    margin-left: 100px;
+    padding-top: 120px;
+  }
+
+  .div-da {
+    font-size: 32px;
+  }
+  .div-da p {
+    margin-top: 40px;
+  }
+  .div-da span {
+    font-size: 38px;
+  }
+  .portofoliu-div {
+    margin-top: 50px;
+    width: 600px;
+  }
+  .portofoliu-text{
+    font-size: 32px;
+  }
+  .vezi-site {
+    padding: 20px 50px;
+    border-radius: 20px;
+    font-size: 25px;
+  }
+  .sociabili {
+    margin-top: 200px;
+    font-size: 18px;
+  }
+  .footer-links p{
+    margin-bottom: 20px;
+  }
+  .personal-links {
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Backgrounds */
+  .header {
+    width: 768px;
+    height: 326px;
+  }
+  .lauda {
+    width: 768px;
+    height: 185px;
+  }
+  .proiecte {
+    width: 768px;
+    height: 390px;
+    margin-top: 25px;
+  }
+  .misiunea-noastra {
+    width: 768px;
+    height: 404px;
+  }
+  .raspunde-da {
+    width: 768px;
+    height: 196px;
+  }
+  .portofoliu {
+    width: 768px;
+    height: 125px;
+  }
+  .footer-links {
+    width: 768px;
+    height: 305px;
+  }
+
+  /* Content */
+  .header-p {
+    font-size: 24px;
+    margin: 290px 0px 0px 60px;
+  }
+  .center-stiai {
+    font-size: 24px;
+    width: 375px;
+    height: 98px;
+    margin: 45px 0px 0px 167px;
+
+  }
+  .center-stiai p {
+    padding: 20px 30px 20px 30px;
+  }
+  .div-hr {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .ne-laudam {
+    font-size: 24px;
+  }
+  .div-hr p {
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .colaborare-div {
+    font-size: 18px;
+    margin: 60px 0px 0px 410px;
+    width: 280px;
+  }
+  .misiunea-noastra p {
+    font-size: 18px;
+    width: 220px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .p-stii {
+    margin-left: 75px;
+    padding-top: 35px;
+  }
+  .p-albastru {
+    margin-left: 75px;
+    padding-top: 90px;
+  }
+  .p-frumos {
+    margin-left: 75px;
+    padding-top: 65px;
+  }
+
+  .div-da {
+    font-size: 24px;
+  }
+  .div-da p {
+    margin-top: 40px;
+  }
+  .div-da span {
+    font-size: 28px;
+  }
+  .portofoliu-div {
+    margin-top: 50px;
+    width: 480px;
+  }
+  .portofoliu-text{
+    font-size: 24px;
+  }
+  .vezi-site {
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  .sociabili {
+    margin-top: 150px;
+    font-size: 13px;
+  }
+  .footer-links p{
+    margin-bottom: 10px;
+  }
+  .personal-links {
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Backgrounds */
+
+  .header {
+    width: 576px;
+    height: 244px;
+  }
+  .lauda {
+    width: 576px;
+    height: 137px;
+  }
+  .proiecte {
+    width: 576px;
+    height: 293px;
+    margin-top: 25px;
+  }
+  .misiunea-noastra {
+    width: 576px;
+    height: 303px;
+  }
+  .raspunde-da {
+    width: 576px;
+    height: 147px;
+  }
+  .portofoliu {
+    width: 576px;
+    height: 70px;
+  }
+  .footer-links {
+    width: 576px;
+    height: 229px;
+  }
+
+  /* Content */
+  .header-p {
+    font-size: 17px;
+    margin: 220px 0px 0px 30px;
+  }
+  .center-stiai {
+    font-size: 17px;
+    width: 282px;
+    height: 75px;
+    margin: 32px 0px 0px 125px;
+
+  }
+  .center-stiai p {
+    padding: 20px 30px 20px 30px;
+  }
+  .div-hr {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .ne-laudam {
+    font-size: 17px;
+  }
+  .div-hr p {
+    padding-top: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .colaborare-div {
+    font-size: 14px;
+    margin: 50px 0px 0px 300px;
+    width: 200px;
+  }
+  .misiunea-noastra p {
+    font-size: 14px;
+    width: 180px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .p-stii {
+    margin-left: 55px;
+    padding-top: 25px;
+  }
+  .p-albastru {
+    margin-left: 55px;
+    padding-top: 65px;
+  }
+  .p-frumos {
+    margin-left: 55px;
+    padding-top: 45px;
+  }
+
+  .div-da {
+    font-size: 17px;
+  }
+  .div-da p {
+    margin-top: 30px;
+  }
+  .div-da span {
+    font-size: 20px;
+  }
+  .portofoliu-div {
+    margin-top: 30px;
+    width: 325px;
+  }
+  .portofoliu-text{
+    font-size: 17px;
+  }
+  .vezi-site {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  .sociabili {
+    margin-top: 120px;
+    font-size: 10px;
+  }
+  .footer-links p{
+    margin-bottom: 5px;
+  }
+  .personal-links {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 375px) {
+  /* Backgrounds */
+  .header {
+    width: 375px;
+    height: 159px;
+  }
+  .lauda {
+    width: 375px;
+    height: 90px;
+  }
+  .proiecte {
+    width: 375px;
+    height: 190px;
+    margin-top: 25px;
+  }
+  .misiunea-noastra {
+    width: 375px;
+    height: 197px;
+  }
+  .portofoliu {
+    width: 375px;
+    height: 40px;
+  }
+  .raspunde-da {
+    width: 375px;
+    height: 95px;
+  }
+  .footer-links {
+    width: 375px;
+    height: 149px;
+  }
+
+  /* Content */
+  .header-p {
+    font-size: 13px;
+    margin: 140px 0px 0px 20px;
+  }
+  .center-stiai {
+    font-size: 13px;
+    width: 185px;
+    height: 50px;
+    margin: 20px 0px 0px 80px;
+
+  }
+  .center-stiai p {
+    padding: 10px 8px 10px 8px;
+  }
+  .div-hr {
+    margin-left: 55px;
+    margin-right: 55px;
+  }
+  .ne-laudam {
+    font-size: 13px;
+  }
+  .div-hr p {
+    padding-top: 5px;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  .colaborare-div {
+    font-size: 10px;
+    margin: 20px 0px 0px 200px;
+    width: 150px;
+  }
+  .misiunea-noastra p {
+    font-size: 10px;
+    width: 115px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .p-stii {
+    margin-left: 35px;
+    padding-top: 12px;
+  }
+  .p-albastru {
+    margin-left: 35px;
+    padding-top: 40px;
+  }
+  .p-frumos {
+    margin-left: 35px;
+    padding-top: 25px;
+  }
+
+  .div-da {
+    font-size: 13px;
+  }
+  .div-da p {
+    margin-top: 22px;
+  }
+  .div-da span {
+    font-size: 15px;
+  }
+  .portofoliu-div {
+    margin-top: 20px;
+    width: 250px;
+  }
+  .portofoliu-text{
+    font-size: 13px;
+  }
+  .vezi-site {
+    padding: 5px 15px;
+    border-radius: 8px;
+    font-size: 10px;
+  }
+  .sociabili {
+    margin-top: 75px;
+    font-size: 6px;
+  }
+  .footer-links p{
+    margin-bottom: 5px;
+  }
+  .personal-links {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+  }
+}
